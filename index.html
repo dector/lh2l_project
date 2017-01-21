@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<hmtl xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title></title>
+
+		<!-- JQuery 3.1.1 (https://jquery.com/) -->
+		<script src="jquery-3.1.1.min.js"></script>
+
+		<!-- FullPage.js (http://alvarotrigo.com/fullPage/) -->
+		<link rel="stylesheet" type="text/css" href="jquery.fullpage.min.css" />
+		<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			    $('#content').fullpage({
+			    	navigation: true
+			    });
+			});
+		</script>
+	</head>
+	<body class="intro">
+
+		<div id="content">
+			<div id="sec_intro_1" class="section">
+				<p>Hello! This is Johny.</p>
+
+				<img src="data/p1_front.png"/>
+
+				<p class="scroll_text">&#x2C5; Scroll down &#x2C5;</p>
+			</div>
+
+			<div id="sec_intro_2" class="section">
+				<p>Johny leaves on a planet where one day each person leave his or her home and travel to the stars to become a better learner.</p>
+
+				<img src="data/shipGreen.png"/>
+			</div>
+
+			<div id="sec_intro_3" class="section">
+				<p>Today is a long-awaited day for Johny. He's gonna make this awesome interstellar trip and he's asking you to be his co-pilot.</p>
+
+				<img src="data/shipGreen_manned.png"/>
+			</div>
+
+			<div id="sec_intro_4" class="section">
+				<p><a href="memory.html">Let the journey begins!</a></p>
+			</div>
+		</div>
+
+	</body>
+</hmtl>
