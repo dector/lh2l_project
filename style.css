@@ -80,6 +80,11 @@ span.keyword {
 	color: #D84315;
 }
 
+span.dark_background {
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
 .section {
 	text-align: center;
 	padding-left: 10%;
